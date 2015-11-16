@@ -1,0 +1,8 @@
+#republican, #not-republican, #democrat, #not-democrat, #libertarian, #not-libertarian, #teabagger, #not-teabagger, #socialist {
+  display: none;
+}
+
+.crossout {
+  color: red;
+  text-decoration: line-through;
+}

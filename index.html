@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- Latest compiled and minified Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" integrity="sha512-dTfge/zgoMYpP7QbHy4gWMEGsbsdZeCXz7irItjcC3sPUFtf0kuFbDz/ixG7ArTxmDjLXDmezHubeNikyKGVyQ==" crossorigin="anonymous">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <title>Branching Practice</title>
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="page-header col-md-8">
+        <h3>What political party do you belong to?</h3>
+      </div>
+
+      <div class="row">
+        <div class="col-md-8">
+          <h3 id="top">Figure out who you should vote for</h3>
+
+      <!-- Republican? -->
+        <!-- Yes Rebublican -->
+          <div id="republican">
+            <h4>Then you should vote Republican because you said:</h4>
+            <ul>
+              <li>You love Jesus</li>
+              <li>You love Red Meat</li>
+              <li>You love Guns</li>
+              <li>And you hate government and hippies</li>
+            </ul>
+            <img src="images/gop.png" alt="Congratulations! You're a Republican!" title="Welcome to the GOP!">
+          </div>  <!-- /republican -->
+
+        <!-- Not Republican -->
+          <div id="not-republican">
+            <h4 class="crossout">Republican</h4>
+            <p>Well, since you said you don't love:</p>
+            <ul>
+              <li>Jesus,</li>
+              <li>red meat,</li>
+              <li>or guns,</li>
+              <li>and you don't hate government,</li>
+            </ul>
+            <p>then <b>you're probably not a republican</b>. But let's see if we can figure out what you think you really are then. Click the button to find out.</p>
+
+            <button class="notgopbtn btn btn-info">Maybe you're a Democrat?</button>
+          </div>
+
+      <!-- Democrat? -->
+        <!-- Yes Democrat -->
+          <div id="democrat">
+            <h4>Congratulations! Welcome to the Democrat party!</h4>
+            <ul>
+              <li>You think man is causing global warming and climate change</li>
+              <li>You think recycling should be a religion</li>
+              <li>You want old people and people who are disabled to get governement assistance</li>
+              <li>You are ambivalent about what to do outside our borders</li>
+              <li>You can't fight, are afraid of confrontation, hate guns, hug trees, embryos, stem cells and anything wrapped in a rainbow, wearing Birkinstocks or smoking dope</li>
+            </ul>
+
+            <img src="images/dems.png" alt="Congratulations! You're a Democrat!" title="Welcome to the Rainbow Stoner Pacifists!">
+          </div>  <!-- /democrat -->
+
+        <!-- Not Democrat -->
+          <div id="not-democrat">
+            <h4 class="crossout">Republican<br>Democrat</h4>
+            <p>Well, since you're not a republican nor a democrat, let's see if we can figure out what you think you really are then.</p>
+
+            <button class="notdemsbtn btn btn-info">Ooh! Maybe you're a Libertarian! Click-Me!!</button>
+          </div>
+
+      <!-- Libertarian? -->
+        <!-- Yes Libertarian -->
+          <div id="libertarian">
+            <h4>Congratulations!! You're a Libertarian! You:</h4>
+            <ul>
+              <li>Hate taxes</li>
+              <li>Hate laws</li>
+              <li>Hate the government</li>
+              <li>Hate regulation</li>
+              <li>Hate Democrats and Republicans</li>
+              <li>Love the 2nd Amendmant more than your wife, dog and food</li>
+              <li>You think polluters should pay for polluting</li>
+            </ul>
+
+            <img src="images/lib.png" alt="Libertarian Anti Everything">
+          </div>  <!-- /libertarian -->
+
+        <!-- Not Libertarian -->
+          <div id="not-libertarian">
+            <h4 class="crossout">Republican<br>Democrat<br>Libertarian</h4>
+            <p>Well, since you said you're not a Republican, Democrat nor Libertarian,  then let us try again. Click and see.</p>
+
+            <button class="notlibsbtn btn btn-info">Let's try...umm...a Teabagger</button>
+          </div>
+
+      <!-- Teabagger -->
+          <div id="teabagger">
+            <h4>SURPRISE!! You're a Teabagger! So, you're a teabagger if:</h4>
+            <ul>
+              <li>You mocked Nancy Pelosi for getting emotional when she reflected on the murder of her friend, Mayor George Moscone, but you think it’s manly when John Boehner blubbers when he watches reruns of Flipper.</li>
+              <li>You think Climate Change is a big hoax because Senator James Inhofe, firmly in the pocket of the oil companies says it’s bogus.</li>
+              <li>You think president Obama’s birth certificate is a forgery, and that he managed to fool the CIA, FBI, NSA, Secret Service and the entire US government archive of documents with one Photoshopped image.</li>
+              <li>You think president Obama is a socialist, because he wants all Americans to pay their share of taxes, including the rich, and all Americans to enjoy the same benefits of an equitable society, including the same healthcare that Congress enjoys.</li>
+            </ul>
+            <h4>Congratulations!</h4>
+            <img src="images/tea.png" alt="teabagger idiots">
+          </div>  <!-- /teabagger -->
+
+          <div id="not-teabagger">
+            <h4 class="crossout">Republican<br>Democrat<br>Libertarian<br>Teabagger</h4>
+            <p>So, you're not any of the above. You're probably a socialist. Feel the Bern, brah!</p>
+
+            <button class="notteabtn btn btn-info">Let's take a look</button>
+          </div>
+
+      <!-- Socialist -->
+        <!-- Yes Socialist -->
+          <div id="socialist">
+            <h4>Congrats! You're feeling the Bern</h4>
+
+            <ul>
+              <li>You don't believe in profit just for a few.</li>
+              <li>You believe in a just society.</li>
+              <li>You believe that Democracy and socialism go hand in hand.</li>
+              <li>You don't believe in creating an all-powerful government bureaucracy that owns everything.</li>
+            </ul>
+
+            <h4>Bernin' up!</h4>
+
+            <img src="images/social.png" alt="You're a Socialist">
+          </div> <!-- /socialist -->
+
+        </div>  <!-- /col-md-6 -->
+      </div>  <!-- /row -->
+
+    </div>  <!-- /container -->
+
+    <script src="http://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+
+
+
+
+  </body>
+</html>
